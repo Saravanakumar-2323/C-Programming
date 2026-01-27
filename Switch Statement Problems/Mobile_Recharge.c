@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int plan, payment;
     printf("Plan(1/2): ");
