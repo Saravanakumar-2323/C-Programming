@@ -11,7 +11,7 @@ int main() {
     case 1:
         printf("Delivery Charge Rs.50");
         break;
-        
+
     case 2:
         if(amt < 1000)
             printf("Delivery Charge Rs.100");
@@ -23,4 +23,5 @@ int main() {
         printf("Unaivalable Option");
         break;
     }
+    return 0;
 }
