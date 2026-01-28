@@ -7,4 +7,5 @@ int main() {
         result = result * n;
     }
     printf("%d",result);
+    return 0;
 }
