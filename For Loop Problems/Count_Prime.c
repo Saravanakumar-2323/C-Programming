@@ -12,11 +12,10 @@ int main(){
                 isPrime = 0;
                 break;
             }
-        }
+         
         if(isPrime == 1){
             count ++;
         }      
     }
     printf("%d",count);
-    return 0;
 }
