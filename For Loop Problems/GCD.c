@@ -1,18 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    int min,hcf;
-    if(a<b)
-        min = a;
-    else
-        min = b;
-    
-    for(int i=1;i<=min;i++){
-        if(a%i==0 && b%i==0){
-            hcf = i;
+    int a, b,gcd;
+    scanf("%d %d", &a, &b);
+
+    for (int i = 1; i<=a && i<=b; i++) {
+        if (a % i == 0 && b % i == 0) {
+            gcd = i;
         }
     }
-    printf("%d",hcf);
+    printf("%d", gcd);
     return 0;
 }
